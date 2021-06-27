@@ -7,7 +7,7 @@ import numpy
 # numpy.random.seed(7)
 # load diabetes dataset
 dataset = numpy.loadtxt("diabetes.csv", delimiter=",")
-print(dataset)
+# print(dataset)
 # split into input (X) and output (Y) variables
 X = dataset[:, 0:8]  # independent variable
 Y = dataset[:, 8]  # dependent variable   Y~X
